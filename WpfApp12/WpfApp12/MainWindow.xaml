@@ -1,0 +1,57 @@
+﻿<Window x:Class="WpfApp12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp12"
+        mc:Ignorable="d"
+        Title="Туристичний гід" Height="450" Width="800">
+    <Grid>
+        <TabControl x:Name="Boss" Margin="20 10 20 10">
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel>
+                        <TextBlock>Вінниця</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Row="0" Grid.ColumnSpan="5">
+                            Ві́нниця  — місто на берегах Південного Бугу Вінницького району. Центр Вінницької агломерації.населення становить 370,0 тис. осіб.
+                        </Label>
+                        <Image Source="photo\vn\win1\vnph1.jpeg" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="3" Margin="10,43.6,139.8,31.6"/>
+                        <Image Source="photo\vn\win1\vnph2.jpg" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="100.8,9.8,49,-10"/>
+                        <Button Grid.ColumnSpan="2" Content="Детальніше" Grid.Column="1" HorizontalAlignment="Left" Margin="32.4,10.4,0,0" Grid.Row="4" VerticalAlignment="Top" Width="127" Height="37" Click="Button_Click"/>
+
+
+                    </Grid>
+
+                </TabItem.Content>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel>
+                        <TextBlock>Київ</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</Window>

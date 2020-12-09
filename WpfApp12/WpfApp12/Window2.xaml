@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp12.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp12"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+
+    <Grid>
+        <Label Content="Вітаємо в туристичному гіді по Європі" HorizontalAlignment="Left" Margin="195,10,0,0" VerticalAlignment="Top" Height="86" Width="298"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="211,96,0,0" VerticalAlignment="Top" Height="86" Width="298"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="134,236,0,0" VerticalAlignment="Top" Width="401" RenderTransformOrigin="-0.869,0.432" Height="72"/>
+
+    </Grid>
+</Window>
